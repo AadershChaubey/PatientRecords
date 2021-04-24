@@ -20,8 +20,6 @@ def patientDataFrom(name):
 
 
 
-
-
 if __name__ == "__main__":
     app.run(debug=True)
 
