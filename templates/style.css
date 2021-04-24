@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+}
+
+.name-notes {
+  /* background-color: rgb(67, 153, 78); */
+}
+
+.tests-data {
+  /* background-color: rgb(83, 67, 153); */
+}
+
+.assistant {
+  background-color: rgb(153, 67, 67);
+}
+
+section {
+  border: 1px black solid;
+  min-height: 100vh;
+  flex: 1;
+  padding: 20px;
+  /* display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around; */
+  line-height: 1.6;
+}
+
+.sub-section {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.section-heading {
+  font-size: 20px;
+  font-weight: 550;
+  color: rgb(65, 65, 184);
+  margin-bottom: 15px;
+}
+
+.key-value {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px rgba(65, 59, 60, 0.5) solid;
+  padding: 10px 0;
+}
+
+.value {
+  margin-left: 10px;
+  flex: 1;
+  text-align: right;
+}
+
+.patient-name {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  border-bottom: 2px red solid;
+  width: 200px;
+  color: rgb(11, 11, 200);
+}
+
+.h-heading {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.value span {
+  background: rgb(235, 168, 179, 0.4);
+  padding: 5px;
+  border-radius: 10%;
+  border: 1px rgb(235, 168, 179, 1) solid;
+  display: inline-block;
+}
+
+.date {
+  font-weight: 600;
+  font-size: 15px;
+  color: rgb(95, 93, 93);
+}
