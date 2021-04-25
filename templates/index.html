@@ -10,33 +10,35 @@
   <body>
     <div class="main">
       <section class="name-notes">
+        <input type="text" class="search-bar" placeholder="Search Patient" />
         <div class="patient-detail sub-section">
           <div class="name">
-            <h3 class="patient-name">Joe Bloggs</h3>
+            <h3 class="patient-name Forename">Joe</h3>
+            <h3 class="patient-name Surname">Bloggs</h3>
           </div>
           <div class="details">
-            <div class="sex key-value">
-              <h3 class="h-heading">Sex</h3>
+            <div class="key-value">
+              <h3 class="key">Sex</h3>
 
-              <p class="value">Male</p>
+              <p class="value Sex">Male</p>
             </div>
-            <div class="dob key-value">
-              <h3 class="h-heading">Date Of Birth</h3>
+            <div class="key-value">
+              <h3 class="key">Date Of Birth</h3>
 
-              <p class="value">Male</p>
+              <p class="value DOB"></p>
             </div>
             <div class="past-medical-history key-value">
-              <h3 class="h-heading">Past Medical History</h3>
+              <h3 class="key">Past Medical History</h3>
 
-              <p class="value">
+              <p class="value PastMedicalHistory">
                 <span>Polycystic Kidney disease</span>
                 <span>Hypertension</span>
               </p>
             </div>
             <div class="medication key-value">
-              <h3 class="h-heading">Medications</h3>
+              <h3 class="key">Medications</h3>
 
-              <p class="value">
+              <p class="value Medications">
                 <span>rampril - 10mg OD</span>
                 <span>Biosprolol - 12mg BD</span>
               </p>
@@ -48,7 +50,7 @@
           <h1 class="section-heading">Clinic Notes</h1>
           <div class="dates-wise-notes">
             <h3 class="date">24 / 04/ 2021</h3>
-            <p class="notes">
+            <p class="notes PatientNotesEntry">
               Patient presented to the emergency department with a 2-hour
               history of an occipital headache and neck pain. He has since
               vomited 3 times and complains of blurred vision. Wearing
@@ -68,88 +70,93 @@
           <div class="section-heading">Blood Test</div>
 
           <div class="key-value">
-            <h3 class="h-heading">Sodium</h3>
+            <h3 class="key">Sodium</h3>
             :
-            <p class="value">134</p>
+            <p class="value Sodium">134</p>
           </div>
 
           <div class="key-value">
-            <h3 class="h-heading">Potassium</h3>
+            <h3 class="key">Potassium</h3>
             :
-            <p class="value">1.4</p>
+            <p class="value Potassium">1.4</p>
           </div>
 
           <div class="key-value">
-            <h3 class="h-heading">Urea</h3>
+            <h3 class="key">Urea</h3>
             :
-            <p class="value">5</p>
+            <p class="value Urea">5</p>
           </div>
 
           <div class="key-value">
-            <h3 class="h-heading">Creatinine</h3>
+            <h3 class="key">Creatinine</h3>
             :
-            <p class="value">80</p>
+            <p class="value Creatinine">80</p>
           </div>
 
           <div class="key-value">
-            <h3 class="h-heading">bicarbonate</h3>
+            <h3 class="key">bicarbonate</h3>
             :
-            <p class="value">26</p>
+            <p class="value bicarbonate">26</p>
           </div>
 
           <div class="key-value">
-            <h3 class="h-heading">chloride</h3>
+            <h3 class="key">chloride</h3>
             :
-            <p class="value">95</p>
+            <p class="value chloride">95</p>
           </div>
 
           <div class="key-value">
-            <h3 class="h-heading">Haemoglobin</h3>
+            <h3 class="key">Haemoglobin</h3>
             :
-            <p class="value">137</p>
+            <p class="value Haemoglobin">137</p>
           </div>
 
           <div class="key-value">
-            <h3 class="h-heading">Mean cell count</h3>
+            <h3 class="key">Mean cell count</h3>
             :
-            <p class="value">92</p>
+            <p class="value MeancCellCount">92</p>
           </div>
 
           <div class="key-value">
-            <h3 class="h-heading">Platelets</h3>
+            <h3 class="key">Platelets</h3>
             :
-            <p class="value">200</p>
+            <p class="value Platelets">200</p>
           </div>
 
           <div class="key-value">
-            <h3 class="h-heading">WBC</h3>
+            <h3 class="key">WBC</h3>
             :
-            <p class="value">6*10^9</p>
+            <p class="value WBC">6*10^9</p>
           </div>
 
           <div class="key-value">
-            <h3 class="h-heading">Neutrophils</h3>
+            <h3 class="key">Neutrophils</h3>
             :
-            <p class="value">3*10^9</p>
+            <p class="value Neutrophils">3*10^9</p>
           </div>
 
           <div class="key-value">
-            <h3 class="h-heading">Lymphocytes</h3>
+            <h3 class="key">Lymphocytes</h3>
             :
-            <p class="value">3*10^9</p>
+            <p class="value Lymphocytes">3*10^9</p>
           </div>
 
           <div class="key-value">
-            <h3 class="h-heading">Eosinophils</h3>
+            <h3 class="key">Eosinophils</h3>
             :
-            <p class="value">0.3*10^9</p>
+            <p class="value Eosinophils">0.3*10^9</p>
           </div>
         </div>
 
-        <div class="imaging-data sub-section"></div>
+        <div class="imaging-data sub-section">
+          <!-- <img src="" -->
+        </div>
       </section>
 
       <section class="assistant"></section>
     </div>
+
+    <script src="ArrayData.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
