@@ -11,17 +11,6 @@
   padding: 5px;
   font-size: 16px;
 }
-.name-notes {
-  /* background-color: rgb(67, 153, 78); */
-}
-
-.tests-data {
-  /* background-color: rgb(83, 67, 153); */
-}
-
-.assistant {
-  background-color: rgb(153, 67, 67);
-}
 
 section {
   border: 1px black solid;
@@ -93,4 +82,37 @@ section {
   font-weight: 600;
   font-size: 15px;
   color: rgb(95, 93, 93);
+}
+.scan {
+  line-height: 2;
+  color: rgb(45, 56, 90);
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.scan-link {
+  cursor: pointer;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.scan-link:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  transition: width 0.3s;
+  margin: auto;
+}
+.scan-link:hover {
+  color: black;
+}
+
+.scan-link:hover::after {
+  width: 100%;
+}
+
+.notes {
+  font-size: 20px;
 }
