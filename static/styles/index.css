@@ -120,3 +120,35 @@ section {
 .notes {
   font-size: 20px;
 }
+
+.color-box {
+  width: 15px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.disease-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px auto;
+  font-size: 20px;
+}
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.disease-name {
+  background-color: rgb(94, 94, 223, 0.5);
+  border: 2px rgb(94, 94, 223) solid;
+  padding: 5px;
+  border-radius: 5px;
+}
